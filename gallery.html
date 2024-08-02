@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Festival Gallery</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f5f6f7;
+        }
+
+        .header{
+            text-align: center;
+            padding: 32px;
+            font-family: 'Poppins', sans-serif;
+            background: url(./images/index-page-images/homeimg.jpg);
+            color: #f5f6f7;
+            border-bottom: 4px solid  #f5f6f7;
+        }
+        .gallery{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .gallery::after {
+            content: "";
+            width: 350px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Festival Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="images/gallery-images/christmas1.jpg" alt="picture">
+        <img src="images/gallery-images/christmas2.jpg" alt="picture">
+        <img src="images/gallery-images/christmas3.jpg" alt="">
+        <img src="images/gallery-images/christmas4.jpg" alt="picture">
+        <img src="images/gallery-images/christmas5.jpg" alt="picture">
+        <img src="images/gallery-images/christmas6.jpg" alt="picture">
+        <img src="images/gallery-images/diwali1.jpg" alt="picture">
+        <img src="images/gallery-images/diwali2.jpg" alt="picture">
+        <img src="images/gallery-images/diwali3.jpg" alt="picture">
+        <img src="images/gallery-images/eid1.jpg" alt="picture">
+        <img src="images/gallery-images/eid2.jpg" alt="picture">
+        <img src="images/gallery-images/eid1.jpg" alt="picture">
+    </div>
+</body>
+</html>
